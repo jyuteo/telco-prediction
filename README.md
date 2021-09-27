@@ -163,7 +163,7 @@ python train.py -i "./data/raw.csv"
 
 ### Explanation
 
-- The problem faced is class imbalance in the training data. So, accuracy is not a good metric to determine the model performance. So, f1 score is used to select the best model by balancing precision and recall
-- Resampling methods such as random oversampling, random undersampling and SMOTE are used prior to model fitting to
+- The problem faced is class imbalance in the training data. So, accuracy is not a good metric to determine the model performance. F1 score is used to select the best model by balancing precision and recall
+- Resampling methods such as random oversampling, random undersampling and SMOTE are used prior to model fitting
 - Hyperparameter tuning was done for each model, although with no significance increase in the metrics
-- The model with highest f1 score is Stacking Classifier using Logistic Regression, Random Forest and Gradient Boosting.
+- The model with highest f1 score is Stacking Classifier using Logistic Regression, Random Forest and Gradient Boosting
