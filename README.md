@@ -6,7 +6,7 @@ Predicts the likelihood of customer defaulting on telco payment based on their t
 
 ### Request body
 
-JSON object with key `"data"` a list of data objects as values
+JSON object with key `"data"` and a list of data objects as values
 
 ```json
 {
